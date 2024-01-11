@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+<div class = "Players">
+    
+    <div id = "player1">
+    <h1 id = "pl1">PLAYER 1</h1>
+    <div id = subbox1>
+        <h1>CURRENT</h1>
+        <h1 id = "score1"></h1>
+    </div>
+</div>
+
+<div id = "player2">
+    <h1 id = "pl2">PLAYER 2</h1>
+    <div id = subbox2>
+        <h1>CURRENT</h1>
+        <h1 id = "score2"></h1>
+    </div>
+</div>
+
+<div class="components">
+    <button class="btn" id = "reset" onclick="reset()">🔄️NEW GAME</button>
+    <img id = "dice">
+    <button class="btn" id = "roll" onclick="rollDice()">🎲ROLL DICE</button>
+    <button class="btn" id = "hold" onclick = "hold()">🛑HOLD</button>
+</div>
+</div>
+<!-- <div class = "components">
+    <button class = "btn">NEW GAME</button>
+    <img id = "dice" src="./Assets/dice-2.png">
+    <button id = "btn2" class= "btn">ROLL DICE</button>
+    <button id = "btn3" class= "btn">HOLD</button>
+</div> -->
+</body>
+<script src = "app.js"></script>
+</html>
